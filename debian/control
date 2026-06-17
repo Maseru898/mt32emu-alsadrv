@@ -1,0 +1,21 @@
+Source: mt32emu-alsadrv
+Section: unstable
+Priority: optional
+Maintainer: Marcel Weissenbach <marcel.weissenbach@cybertrust.co.jp>
+Build-Depends:
+ debhelper-compat (= 13),
+ cmake,
+ mt32emu,
+Standards-Version: 4.7.3
+Homepage: https://github.com/munt/munt/tree/master/mt32emu_alsadrv
+Rules-Requires-Root: no
+
+Package: mt32emu-alsadrv
+Section: unknown
+Architecture: any
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ mt32emu
+Description: Comprises of a GUI and a console applications that make use of mt32emu library to provide emulation services via ALSA MIDI sequencer interface for Linux applications.
