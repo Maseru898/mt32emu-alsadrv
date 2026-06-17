@@ -8,6 +8,7 @@ Build-Depends:
  mt32emu,
  libasound2-dev,
  x11proto-dev,
+ libx11-dev,
 Standards-Version: 4.7.3
 Homepage: https://github.com/munt/munt/tree/master/mt32emu_alsadrv
 Rules-Requires-Root: no
