@@ -1,5 +1,6 @@
-mt32emu-alsadrv (20260616-1) UNRELEASED; urgency=low
+mt32emu-alsadrv (20260625-1) UNRELEASED; urgency=low
 
   * Initial release.
+  * Merged with upstream
 
- -- Marcel Weissenbach <marcel.weissenbach@cybertrust.co.jp>  Wed, 17 Jun 2026 10:17:12 +0900
+ -- Marcel Weissenbach <marcel.weissenbach@cybertrust.co.jp>  Thu, 25 Jun 2026 14:16:00 +0900
